@@ -21,7 +21,7 @@ Systematic analysis of fed-batch fermentation data to identify optimal condition
 ## Repository Structure
 
 ```
-bioprocess-feedlact/
+bioprocess_data_pipeline/
 ├── 01_data_exploration_and_eda.ipynb       # EDA pipeline (consolidate, clean, visualize)
 ├── 02_statistical_and_predictive_modeling.ipynb  # ANOVA, ML, ODE models
 ├── 03_insights_and_recommendations.ipynb   # Executive summary & PDF report
@@ -105,8 +105,8 @@ bioprocess-feedlact/
 **Requirements:** Python 3.9+, Jupyter Notebook
 ```bash
 # Clone repository
-git clone https://github.com/susihad/bioprocess-feedlact.git
-cd bioprocess-feedlact
+git clone https://github.com/susihad/bioprocess_data_pipeline.git
+cd bioprocess_data_pipeline
 
 # Install dependencies
 pip install -r requirements.txt
